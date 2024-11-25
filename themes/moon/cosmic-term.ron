@@ -1,0 +1,37 @@
+(
+    name: "Rosé Pine Moon",
+    foreground: "#e0def4",
+    cursor: "#6e6a86",
+    bright_foreground: "#e0def4",
+    dim_foreground: "#56526e",
+    normal: (
+        black: "#232136",
+        red: "#eb6f92",
+        green: "#9ccfd8",
+        yellow: "#f6c177",
+        blue: "#3e8fb0",
+        magenta: "#c4a7e7",
+        cyan: "#ea9a97",
+        white: "#e0def4"
+    ),
+    bright: (
+        black: "#232136",
+        red: "#eb6f92",
+        green: "#9ccfd8",
+        yellow: "#f6c177",
+        blue: "#3e8fb0",
+        magenta: "#c4a7e7",
+        cyan: "#ea9a97",
+        white: "#e0def4"
+    ),
+    dim: (
+        black: "#232136",
+        red: "#eb6f92",
+        green: "#9ccfd8",
+        yellow: "#f6c177",
+        blue: "#3e8fb0",
+        magenta: "#c4a7e7",
+        cyan: "#ea9a97",
+        white: "#e0def4"
+    ),
+)

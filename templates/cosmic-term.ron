@@ -1,0 +1,22 @@
+{%- macro palette() -%}
+    (
+        black: "#{{ base.hex }}",
+        red: "#{{ love.hex }}",
+        green: "#{{ foam.hex }}",
+        yellow: "#{{ gold.hex }}",
+        blue: "#{{ pine.hex }}",
+        magenta: "#{{ iris.hex }}",
+        cyan: "#{{ rose.hex }}",
+        white: "#{{ text.hex }}"
+    )
+{%- endmacro palete -%}
+(
+    name: "{{ metadata.name }}",
+    foreground: "#{{ text.hex }}",
+    cursor: "#{{ muted.hex }}",
+    bright_foreground: "#{{ text.hex }}",
+    dim_foreground: "#{{ highlight_high.hex }}",
+    normal: {{ self::palette() }},
+    bright: {{ self::palette() }},
+    dim: {{ self::palette() }},
+)

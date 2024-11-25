@@ -1,0 +1,37 @@
+(
+    name: "Rosé Pine Dawn",
+    foreground: "#575279",
+    cursor: "#9893a5",
+    bright_foreground: "#575279",
+    dim_foreground: "#cecacd",
+    normal: (
+        black: "#faf4ed",
+        red: "#b4637a",
+        green: "#56949f",
+        yellow: "#ea9d34",
+        blue: "#286983",
+        magenta: "#907aa9",
+        cyan: "#d7827e",
+        white: "#575279"
+    ),
+    bright: (
+        black: "#faf4ed",
+        red: "#b4637a",
+        green: "#56949f",
+        yellow: "#ea9d34",
+        blue: "#286983",
+        magenta: "#907aa9",
+        cyan: "#d7827e",
+        white: "#575279"
+    ),
+    dim: (
+        black: "#faf4ed",
+        red: "#b4637a",
+        green: "#56949f",
+        yellow: "#ea9d34",
+        blue: "#286983",
+        magenta: "#907aa9",
+        cyan: "#d7827e",
+        white: "#575279"
+    ),
+)
