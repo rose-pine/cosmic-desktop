@@ -11,7 +11,7 @@
     )
 {%- endmacro palete -%}
 (
-    name: "{{ metadata.name }}",
+    name: "{{ name }}",
     foreground: "#{{ text.hex }}",
     cursor: "#{{ muted.hex }}",
     bright_foreground: "#{{ text.hex }}",

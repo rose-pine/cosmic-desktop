@@ -43,11 +43,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1732014248,
-        "narHash": "sha256-y/MEyuJ5oBWrWAic/14LaIr/u5E0wRVzyYsouYY3W6w=",
+        "lastModified": 1732521221,
+        "narHash": "sha256-2ThgXBUXAE1oFsVATK1ZX9IjPcS4nKFOAjhPNKuiMn0=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "23e89b7da85c3640bbc2173fe04f4bd114342367",
+        "rev": "4633a7c72337ea8fd23a4f2ba3972865e3ec685d",
         "type": "github"
       },
       "original": {
@@ -73,11 +73,11 @@
         "rust-overlay": "rust-overlay"
       },
       "locked": {
-        "lastModified": 1732542435,
-        "narHash": "sha256-kfoDyr9Bvrta7nV2oa8FDHNE0bCqbnB/uvRNTDkTgFU=",
+        "lastModified": 1732740010,
+        "narHash": "sha256-O9pf4yOocD3emfFB5syN6N60Ii0vYdFR5p7Q+ExHAk0=",
         "owner": "juliamertz",
         "repo": "rosepine-buildrs",
-        "rev": "456c8379a6e61b3e40a369bfb5c847f52c54ad84",
+        "rev": "cf98223f9f368c72ecd96b8c75c0101d9b2f9721",
         "type": "github"
       },
       "original": {

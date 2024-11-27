@@ -17,8 +17,8 @@
 {%- endmacro format_optional -%}
 
 (
-    palette: {{ metadata.kind | capitalize }}((
-        name: "{{ metadata.name }}",
+    palette: {{ kind | capitalize }}((
+        name: "{{ name }}",
         blue: {{ self::format(color=foam) }},
         red: {{ self::format(color=love) }},
         green: {{ self::format(color=pine) }},
