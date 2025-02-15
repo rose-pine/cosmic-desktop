@@ -1,10 +1,10 @@
 {%- macro palette() -%}
     (
-        black: "#{{ base.hex }}",
+        black: "#{{ overlay.hex }}",
         red: "#{{ love.hex }}",
-        green: "#{{ foam.hex }}",
+        green: "#{{ pine.hex }}",
         yellow: "#{{ gold.hex }}",
-        blue: "#{{ pine.hex }}",
+        blue: "#{{ foam.hex }}",
         magenta: "#{{ iris.hex }}",
         cyan: "#{{ rose.hex }}",
         white: "#{{ text.hex }}"
@@ -13,6 +13,7 @@
 (
     name: "{{ name }}",
     foreground: "#{{ text.hex }}",
+    background: "#{{ base.hex }}",
     cursor: "#{{ muted.hex }}",
     bright_foreground: "#{{ text.hex }}",
     dim_foreground: "#{{ highlight_high.hex }}",
