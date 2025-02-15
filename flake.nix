@@ -5,7 +5,7 @@
       url = "github:hercules-ci/flake-parts";
       inputs.nixpkgs-lib.follows = "nixpkgs";
     };
-    rosepine-build = {
+    rose-pine-build = {
       url = "github:juliamertz/rosepine-buildrs";
       inputs.nixpkgs.follows = "nixpkgs";
     };
@@ -27,16 +27,16 @@
           ...
         }:
         let
-          rosePineBuild = inputs.rosepine-build.packages.${system}.default;
+          rose-pine-build = inputs.rose-pine-build.packages.${system}.default;
         in
         {
-          packages.default = pkgs.runCommandNoCC "generated" ''
-            "${lib.getExe rosePineBuild} ${./templates} --tera -o $out"
+          packages.default = pkgs.runCommandNoCC "generated" {} ''
+            ${lib.getExe rose-pine-build} ${./templates} --tera -o $out
           '';
 
           devShells.default = pkgs.mkShell {
             packages = [
-              rosePineBuild
+              rose-pine-build
             ];
           };
         };
