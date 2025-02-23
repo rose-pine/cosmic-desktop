@@ -6,31 +6,26 @@
       inputs.nixpkgs-lib.follows = "nixpkgs";
     };
     rose-pine-build = {
-      url = "github:juliamertz/rosepine-buildrs";
+      url = "github:juliamertz/rose-pine-build?dir=nix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
   outputs =
-    {
-      nixpkgs,
-      flake-parts,
-      ...
-    }@inputs:
+    { nixpkgs, flake-parts, ... }@inputs:
     flake-parts.lib.mkFlake { inherit inputs; } {
       systems = nixpkgs.lib.systems.flakeExposed;
       perSystem =
         {
-          config,
           pkgs,
           lib,
           system,
           ...
         }:
         let
-          rose-pine-build = inputs.rose-pine-build.packages.${system}.default;
+          rose-pine-build = inputs.rose-pine-build.packages.${system}.binary;
         in
         {
-          packages.default = pkgs.runCommandNoCC "generated" {} ''
+          packages.default = pkgs.runCommandNoCC "generated" { } ''
             ${lib.getExe rose-pine-build} ${./templates} --tera -o $out
           '';
 

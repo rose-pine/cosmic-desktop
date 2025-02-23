@@ -20,27 +20,6 @@
         "type": "github"
       }
     },
-    "flake-parts_2": {
-      "inputs": {
-        "nixpkgs-lib": [
-          "rose-pine-build",
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1730504689,
-        "narHash": "sha256-hgmguH29K2fvs9szpq2r3pz2/8cJd2LPS+b4tfNFCwE=",
-        "owner": "hercules-ci",
-        "repo": "flake-parts",
-        "rev": "506278e768c2a08bec68eb62932193e341f55c90",
-        "type": "github"
-      },
-      "original": {
-        "owner": "hercules-ci",
-        "repo": "flake-parts",
-        "type": "github"
-      }
-    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1739446958,
@@ -66,44 +45,23 @@
     },
     "rose-pine-build": {
       "inputs": {
-        "flake-parts": "flake-parts_2",
         "nixpkgs": [
-          "nixpkgs"
-        ],
-        "rust-overlay": "rust-overlay"
-      },
-      "locked": {
-        "lastModified": 1737737440,
-        "narHash": "sha256-ADggYuPUdCiaDJ/ZBl1KqfVsiv15IzekPdIT4wS0bG4=",
-        "owner": "juliamertz",
-        "repo": "rosepine-buildrs",
-        "rev": "91d78825aa40138ec86efa7fe0905c2de134a893",
-        "type": "github"
-      },
-      "original": {
-        "owner": "juliamertz",
-        "repo": "rosepine-buildrs",
-        "type": "github"
-      }
-    },
-    "rust-overlay": {
-      "inputs": {
-        "nixpkgs": [
-          "rose-pine-build",
           "nixpkgs"
         ]
       },
       "locked": {
-        "lastModified": 1731983527,
-        "narHash": "sha256-JECaBgC0pQ91Hq3W4unH6K9to8s2Zl2sPNu7bLOv4ek=",
-        "owner": "oxalica",
-        "repo": "rust-overlay",
-        "rev": "71287228d96e9568e1e70c6bbfa3f992d145947b",
+        "dir": "nix",
+        "lastModified": 1740353519,
+        "narHash": "sha256-62y7oDeUny9XM8+5NV+oGHtOUhWTYl+CsZZZNbrUu+I=",
+        "owner": "juliamertz",
+        "repo": "rose-pine-build",
+        "rev": "702439e553656935dd12c87cfda92e805e7679c6",
         "type": "github"
       },
       "original": {
-        "owner": "oxalica",
-        "repo": "rust-overlay",
+        "dir": "nix",
+        "owner": "juliamertz",
+        "repo": "rose-pine-build",
         "type": "github"
       }
     }
