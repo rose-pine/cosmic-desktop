@@ -1,6 +1,6 @@
 <p align="center">
     <img src="https://github.com/rose-pine/rose-pine-theme/raw/main/assets/icon.png" width="80" />
-    <h2 align="center">Rosé Pine for Cosmic desktop</h2>
+    <h2 align="center">Rosé Pine for COSMIC Desktop</h2>
 </p>
 
 <p align="center">All natural pine, faux fur and a bit of soho vibes for the classy minimalist</p>
@@ -35,9 +35,17 @@ Follow the instructions below to apply the theme to your desktop and terminal.
 
 ## Gallery
 
-![main](https://i.imgur.com/gs2WFqm.png)
-![moon](https://i.imgur.com/z79CGAa.png)
-![dawn](https://i.imgur.com/unQBP55.png)
+### Rosé Pine
+
+![Rosé Pine with COSMIC Desktop](https://i.imgur.com/gs2WFqm.png)
+
+### Rosé Pine Moon
+
+![Rosé Pine Moon with COSMIC Desktop](https://i.imgur.com/z79CGAa.png)
+
+### Rosé Pine Dawn
+
+![Rosé Pine Dawn with COSMIC Desktop](https://i.imgur.com/unQBP55.png)
 
 ## Contributing
 
